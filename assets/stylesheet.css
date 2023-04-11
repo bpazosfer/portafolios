@@ -4,7 +4,8 @@
 }
 
 .pfp {
-    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .sidebar {
     background-color: #520023;
@@ -17,6 +18,12 @@ h1 {
     color: #FFEBF3;
 }
 
+h2 {
+    color: #FFEBF3;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 ul {
     text-decoration: none;
     color: #FFEBF3;
@@ -27,23 +34,45 @@ ul {
 .card {
     border-color: #ff99c5;
     margin-bottom: 0.6rem;
+    min-height: 13rem;
 }
 
 .card-body {
-    background-color: #f658b8;
+    background-color: #ff99c5;
 }
 
 .card-title {
     color: #cc0058;
 }
 
-.btn {
-    background-color: #cc0058;
+.card-text {
+    color:#7a0035;
 }
 
-.cv-button {
+.btn {
+    background-color: #cc0058;
+    color: #ffebf3;
+    font-weight: 5000;
     margin-top: 0.7rem;
-    padding: 0.5rem;
+}
+
+.card > .btn {
+    align-items: flex-end;
+}
+
+.btn:hover {
+    background-color: #FFEBF3;
+    color: #520023;
+}
+
+
+.redes-sociales > a  {
+    text-decoration: none;
+}
+
+.icon-redes-sociales {
+    text-decoration: none;
+    color:#FFEBF3;
 }
 
 .contacto > ul > li {
